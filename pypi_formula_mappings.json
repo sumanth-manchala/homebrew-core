@@ -140,10 +140,7 @@
   },
   "charmcraft": {
     "extra_packages": ["appdirs", "pydantic"],
-    "exclude_packages": [
-      "certifi", "cffi", "cryptography", "keyring", "pycparser", "PyYAML",
-      "pytz", "six", "tabulate", "typing-extensions", "packaging"
-    ]
+    "exclude_packages": ["certifi", "cryptography"]
   },
   "chatblade": {
     "exclude_packages": ["certifi"]
